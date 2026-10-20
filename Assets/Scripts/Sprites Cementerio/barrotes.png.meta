@@ -1,16 +1,16 @@
 fileFormatVersion: 2
-guid: a4a84c4942ead56499f99677bcabb841
+guid: afdfe8e9894072b489e2528dea51c193
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1998364212968770328
-    second: Barrotess_0
+      213: 4627578327126286961
+    second: barrotes_0
   - first:
-      213: 6766919287331389938
-    second: Barrotess_1
+      213: 5206675709518184394
+    second: barrotes_1
   - first:
-      213: 3130449553293791230
-    second: Barrotess_2
+      213: 8173218792594738805
+    second: barrotes_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -43,7 +43,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -106,7 +106,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Barrotess_0
+      name: barrotes_0
       rect:
         serializedVersion: 2
         x: 0
@@ -121,14 +121,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8e4b42a06526444e0800000000000000
-      internalID: -1998364212968770328
+      spriteID: 172a8a678f5783040800000000000000
+      internalID: 4627578327126286961
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Barrotess_1
+      name: barrotes_1
       rect:
         serializedVersion: 2
         x: 64
@@ -143,14 +143,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2f180293d3de8ed50800000000000000
-      internalID: 6766919287331389938
+      spriteID: acf7c7eb8f3d14840800000000000000
+      internalID: 5206675709518184394
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Barrotess_2
+      name: barrotes_2
       rect:
         serializedVersion: 2
         x: 0
@@ -165,14 +165,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: eff4b5b6847917b20800000000000000
-      internalID: 3130449553293791230
+      spriteID: 57e0824303b1d6170800000000000000
+      internalID: 8173218792594738805
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Barrotess_3
+      name: barrotes_3
       rect:
         serializedVersion: 2
         x: 64
@@ -187,14 +187,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc8d2ec88c2b3c241b317ef7c79d0cdc
-      internalID: -430362594
+      spriteID: 72367467b94761d4bbdac1fb381b4539
+      internalID: -2139925732
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Barrotess_4
+      name: barrotes_4
       rect:
         serializedVersion: 2
         x: 0
@@ -209,14 +209,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8a748d6936568b4db2e43b174272770
-      internalID: 456198916
+      spriteID: e013abfc97dadc448bfd648ba5825983
+      internalID: 713914533
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Barrotess_5
+      name: barrotes_5
       rect:
         serializedVersion: 2
         x: 32
@@ -231,14 +231,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 01592638417d51f4c8140f9d67271f02
-      internalID: -630944658
+      spriteID: 8b676e5d1b2ee6642a485dc233dc81f7
+      internalID: -1037054920
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Barrotess_6
+      name: barrotes_6
       rect:
         serializedVersion: 2
         x: 64
@@ -253,14 +253,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 415fa9ca0c93b814caa5a8c40ff4b163
-      internalID: -983580280
+      spriteID: 0c763ec9ccc7c3848ababae2f01768e2
+      internalID: 1107676331
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Barrotess_7
+      name: barrotes_7
       rect:
         serializedVersion: 2
         x: 0
@@ -275,14 +275,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 361d43034c0f3844ea21c29a8f1e56b5
-      internalID: -191607347
+      spriteID: 8371b5281820dce49944e048cef2891f
+      internalID: 1920945408
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Barrotess_8
+      name: barrotes_8
       rect:
         serializedVersion: 2
         x: 32
@@ -297,14 +297,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3c2080ea6f7706745bf23e86589c404d
-      internalID: 1494869197
+      spriteID: f3a0d8e1d2f90f74f95714debef82dfb
+      internalID: 864755374
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Barrotess_9
+      name: barrotes_9
       rect:
         serializedVersion: 2
         x: 64
@@ -319,8 +319,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dbc81a2df953aca4eabbffc95608ecb3
-      internalID: 1934130309
+      spriteID: b94e62aee36207d4ca9209c3e1c9c8aa
+      internalID: -920728493
       vertices: []
       indices: 
       edges: []
@@ -329,7 +329,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 74abf5ac1ca0edb46bea12cf2e9be35e
+    spriteID: d361fa2c9bb8e0c4ab5d16900cf8182c
     internalID: 0
     vertices: []
     indices: 
@@ -339,18 +339,18 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":1,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Barrotess_0: -1998364212968770328
-      Barrotess_1: 6766919287331389938
-      Barrotess_2: 3130449553293791230
-      Barrotess_3: -430362594
-      Barrotess_4: 456198916
-      Barrotess_5: -630944658
-      Barrotess_6: -983580280
-      Barrotess_7: -191607347
-      Barrotess_8: 1494869197
-      Barrotess_9: 1934130309
+      barrotes_0: 4627578327126286961
+      barrotes_1: 5206675709518184394
+      barrotes_2: 8173218792594738805
+      barrotes_3: -2139925732
+      barrotes_4: 713914533
+      barrotes_5: -1037054920
+      barrotes_6: 1107676331
+      barrotes_7: 1920945408
+      barrotes_8: 864755374
+      barrotes_9: -920728493
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
