@@ -1,16 +1,32 @@
+using Unity.Cinemachine;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class CambioMundos : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public Transform CambioDestino;
+    //private Rigidbody2D rb;
+    public void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+
+            TP();
+            //rb = GetComponent<Rigidbody2D>();
+            //if (rb != null)
+            //{
+                //rb.MovePosition(CambioDestino.position);
+            //}
+            //else
+            //{
+                //other.transform.position = CambioDestino.position;
+            //}
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    private void TP()
     {
-        
+        transform.position = CambioDestino.position;
+        Debug.Log("Jugador Teletrasportado con exito");
     }
 }
