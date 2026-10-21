@@ -5,6 +5,7 @@ using UnityEngine.InputSystem;
 public class CambioMundos : MonoBehaviour
 {
     public Transform CambioDestino;
+    public Transform ObjetosCambio;
     //private Rigidbody2D rb;
     public void Update()
     {
@@ -12,21 +13,17 @@ public class CambioMundos : MonoBehaviour
         {
 
             TP();
-            //rb = GetComponent<Rigidbody2D>();
-            //if (rb != null)
-            //{
-                //rb.MovePosition(CambioDestino.position);
-            //}
-            //else
-            //{
-                //other.transform.position = CambioDestino.position;
-            //}
+
         }
     }
 
     private void TP()
     {
+        Vector2 PosicionAnteriorDelPlayer = transform.position;
+
         transform.position = CambioDestino.position;
+        ObjetosCambio.position = PosicionAnteriorDelPlayer;
         Debug.Log("Jugador Teletrasportado con exito");
     }
+
 }
