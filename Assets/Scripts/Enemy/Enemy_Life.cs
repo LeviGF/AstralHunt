@@ -14,9 +14,9 @@ public class Enemy_Life : MonoBehaviour
         vida = vidaMax;
     }
 
-    public void TomarDaño(float CantidadDaño)
+    public void TomarDaÃ±o(float CantidadDano)
     {
-        vidaMax -= CantidadDaño;
+        vidaMax -= CantidadDano;
 
         if (vidaMax <= 0)
         {

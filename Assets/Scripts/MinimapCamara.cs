@@ -8,9 +8,7 @@ public class MinimapCamara : MonoBehaviour
     {
         if (player != null)
         {
-            Vector3 newPosition = player.position;
-            newPosition.y = transform.position.y;
-            transform.position = newPosition;
+            transform.position = new Vector3(player.position.x, player.position.y, -10f);
         }
     }
 }
