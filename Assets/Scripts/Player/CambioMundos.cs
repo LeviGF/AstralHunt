@@ -21,8 +21,8 @@ public class CambioMundos : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E) && !enTrasicion)
         {
             StartCoroutine(Transicion());
-            TP();
-            enTrasicion = false;
+            //TP();
+            
         }
     }
 
@@ -43,7 +43,15 @@ public class CambioMundos : MonoBehaviour
         //Oscure la pantalla
         yield return StartCoroutine(CambiarAlfa(0f, 1f));
 
+        yield return new WaitForSeconds(0.2f);
+
+        TP();
+
+        yield return new WaitForSeconds(0.5f);
+
         yield return StartCoroutine(CambiarAlfa(1f, 0f));
+
+        enTrasicion = false;
     }
 
     IEnumerator CambiarAlfa(float inicio, float fin)
